@@ -342,11 +342,12 @@ main {
 
 .sec6_contwrap > .box_l {
     width: 637px;
-    height: 187px;
+    height: 150px;
     overflow: hidden;
     float: left;
     padding: 20px 90px;
     box-sizing: border-box;
+    margin-top: 20px;
 }
 
 .middleline {
@@ -359,10 +360,11 @@ main {
 
 .sec6_contwrap > .box_r {
     width: 637px;
-    height: 187px;
+    height: 150px;
     float: right;
     padding: 20px 90px;
     box-sizing: border-box;
+    margin-top: 20px;
 }
 
 .sec6_contwrap h1 {
@@ -426,4 +428,17 @@ main {
 .icon_wrap > div > a > h2 {
     text-align: center;
     margin-top: 10px;
+}
+
+
+
+
+
+
+
+/*******************1276px이하*******************/
+@media only screen and (max-width: 1276px) {
+  body {
+    background-color: lightblue;
+  }
 }
