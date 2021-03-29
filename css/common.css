@@ -81,6 +81,14 @@
           line-height: 46px;
           text-align: center;
           margin: auto;
+}.btn_more_n {
+          width: 198px;
+          height: 46px;
+          border-radius: 5px;
+          background-color: #091740;
+          line-height: 46px;
+          text-align: center;
+          margin: auto;
 }
 
 
@@ -91,6 +99,35 @@
           background-color: #f8d422;
           line-height: 26px;
           text-align: center;
-          margin: auto;
           float: left;
+}
+.btn_small_n {
+          width: 88px;
+          height: 26px;
+          border-radius: 5px;
+          background-color: #091740;
+          line-height: 26px;
+          text-align: center;
+          float: left;
+}
+
+
+
+
+
+@media only screen and (max-width: 400px){
+          .line_y {
+          height: 4px;
+                    width: 70px;
+}
+          .btn_more_y {
+          width: 104px;
+          height: 30px;
+          line-height: 30px;
+}
+    .btn_more_n {
+          width: 104px;
+          height: 30px;
+          line-height: 30px;
+}
 }
